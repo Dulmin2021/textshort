@@ -1,0 +1,1 @@
+# TextShort Chrome extension
