@@ -1,6 +1,6 @@
 {
     "manifest_version": 3,
-    "name": "Text Shortcut Extension",
+    "name": "textshort",
     "version": "1.0",
     "description": "Automatically replace shortcuts with full text",
     "permissions": ["activeTab", "storage"],
@@ -16,11 +16,13 @@
     ],
     "action": {
       "default_popup": "popup.html",
-      "default_icon": {
-        "16": "icon.png",
-        "48": "icon.png",
-        "128": "icon.png"
+      "default_icon": "icon.png"
+      //"default_icon": {
+        //"16": "icon.png",
+        //"48": "icon.png",
+        //"128": "icon.png"
       }
+      
     }
-  }
+  
   
